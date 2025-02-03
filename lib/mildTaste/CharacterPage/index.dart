@@ -26,7 +26,7 @@ class CharacterCard extends StatelessWidget {
               children: <Widget>[
                 Center(
                   child: CircleAvatar(
-                    backgroundImage: AssetImage("assets/bat.gif"),
+                    backgroundImage: AssetImage("assets/mildTaste/bat.gif"),
                     radius: 60.0,
                   ),
                 ),
@@ -116,7 +116,7 @@ class CharacterCard extends StatelessWidget {
                 SizedBox(height: 30.0),
                 Center(
                   child: CircleAvatar(
-                    backgroundImage: AssetImage("assets/avatar.png"),
+                    backgroundImage: AssetImage("assets/mildTaste/avatar.png"),
                     backgroundColor: Colors.grey[800],
                     radius: 40.0,
                   ),

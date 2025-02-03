@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_todo/mildTaste/CharacterPage/index.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,6 +9,16 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CharacterCard();
+    return MaterialApp(
+      title: 'Flutter Demo',
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Hello World'),
+        ),
+        body: Center(
+          child: Text('Hello World'),
+        ),
+      ),
+    );
   }
 }
